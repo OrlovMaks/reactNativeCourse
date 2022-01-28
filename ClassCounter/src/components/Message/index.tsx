@@ -14,7 +14,7 @@ export class Message extends React.Component {
     componentDidMount = () => {
         this.timerVal.current = setInterval(() => this.setState((prevState) => {
             if (prevState.time === 0) {
-                return this.props.value()
+                return this.props.value(1)
             } else {
                 return { time: prevState.time - 1 }
             }
