@@ -18,7 +18,6 @@ export class Message extends React.Component {
             } else {
                 return { time: prevState.time - 1 }
             }
-
         }), 1000);
     }
 
@@ -28,8 +27,8 @@ export class Message extends React.Component {
 
     render() {
         return (
-            <View>
-                <Text style={{ color: 'white', fontSize: 20 }}>time{this.state.time}</Text>
+            <View style={style.messageBlock}>
+                <Text style={style.messageStyle}>Please write a correct step {this.state.time}</Text>
             </View>
         )
     }

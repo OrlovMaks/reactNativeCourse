@@ -1,12 +1,12 @@
-#Fri Jan 28 17:35:00 EET 2022
+#Sat Jan 29 20:40:08 EET 2022
 path.3=14/classes.dex
 path.2=11/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.3=C\:\\Users\\User\\Documents\\GitHub\\reactNativeCourse\\ClassCounter\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.2=C\:\\Users\\User\\Documents\\GitHub\\reactNativeCourse\\ClassCounter\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.1=C\:\\Users\\User\\Documents\\GitHub\\reactNativeCourse\\ClassCounter\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=C\:\\Users\\User\\Documents\\GitHub\\reactNativeCourse\\ClassCounter\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.3=D\:\\reactNativeCourse\\ClassCounter\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.2=D\:\\reactNativeCourse\\ClassCounter\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.1=D\:\\reactNativeCourse\\ClassCounter\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=D\:\\reactNativeCourse\\ClassCounter\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
