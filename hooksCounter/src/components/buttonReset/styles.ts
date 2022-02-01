@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native"
+
 export const buttonResetStyles = StyleSheet.create({
     button:{
         display:'flex',

@@ -1,9 +1,10 @@
 import React, { useRef, useState, useEffect, FC } from 'react';
 import { Text,View } from 'react-native';
 import { style } from './styles';
+const WRONG_MESSAGE_TIMER = 1000
 
 interface IProps{
-    value: number | string
+    value: (plusValue: number)=> void
 }
 
 export const Message:FC<IProps> = ({value}) => {
@@ -16,7 +17,7 @@ export const Message:FC<IProps> = ({value}) => {
                     value(1); 
                 } 
                 return prevTime - 1; 
-            }), 1000); 
+            }), WRONG_MESSAGE_TIMER); 
         return () => clearInterval(timerVal.current); 
     }, []);
 

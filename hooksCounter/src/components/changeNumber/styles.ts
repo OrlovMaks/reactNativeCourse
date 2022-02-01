@@ -1,5 +1,14 @@
-import { StyleSheet } from "react-native"
+import { StyleSheet, Dimensions } from "react-native"
+
+const heightWindow = Dimensions.get('window').height;
+
 export const style = StyleSheet.create({
+    container:{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'flex-end',
+        height: heightWindow 
+    },
     wrapper:{
         display: 'flex',
         flexDirection: 'column',

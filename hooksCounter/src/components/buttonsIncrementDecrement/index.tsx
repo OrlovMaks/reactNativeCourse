@@ -1,12 +1,18 @@
-import React from 'react';
-import {Text,TouchableOpacity,View,} from 'react-native';
+import React, { FC } from 'react';
+import { Text, TouchableOpacity, View, } from 'react-native';
 import { buttonStyles } from './styles';
 
-export const ButtonCount = (props: any) => {
+interface IProps {
+    currentFunc: () => void,
+    title: string,
+}
+
+
+export const ButtonCount: FC<IProps> = ({ currentFunc, title }) => {
     return (
-        <TouchableOpacity onPress={props.currentFunc}>
+        <TouchableOpacity onPress={currentFunc}>
             <View style={buttonStyles.button}>
-                <Text style={buttonStyles.buttonText}>{props.title}</Text>
+                <Text style={buttonStyles.buttonText}>{title}</Text>
             </View>
         </TouchableOpacity>
     )
